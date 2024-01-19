@@ -1,4 +1,4 @@
-# More Emotes Patch
+# [More Emotes Patch](https://thunderstore.io/c/lethal-company/p/poogle/More_Emotes_Patch/)
 
 ## Build Requirements
 
