@@ -25,7 +25,7 @@ namespace MoreEmotesPatch
     {
         public const string GUID = "xyz.poogle.moreemotespatch";
         public const string NAME = "More Emotes Patch";
-        public const string VER = "1.0.3";
+        public const string VER = "1.0.4";
         public readonly Harmony harmony = new Harmony(GUID);
 
         public ConfigEntry<int> maxEmoteTime;
