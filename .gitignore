@@ -1,0 +1,12 @@
+# Reference DLLs
+Libraries/*.dll
+
+# Compiled Output
+bin/*
+obj/*
+
+# NuGet
+packages/*
+
+# VS
+.vs/*
