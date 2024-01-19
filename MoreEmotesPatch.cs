@@ -3,21 +3,14 @@ using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using GameNetcodeStuff;
 using UnityEngine.InputSystem;
 using System.Reflection.Emit;
 using BepInEx.Logging;
-using UnityEngine.Diagnostics;
-using DunGen.Graph;
 using System.Reflection;
-using MoreEmotes;
-using UnityEngine;
 using MoreEmotes.Patch;
 using DunGen;
 using UnityEngine.InputSystem.Controls;
-using System.IO;
 using BepInEx.Configuration;
 using LethalConfig;
 using LethalConfig.ConfigItems.Options;
@@ -32,7 +25,7 @@ namespace MoreEmotesPatch
     {
         public const string GUID = "xyz.poogle.moreemotespatch";
         public const string NAME = "More Emotes Patch";
-        public const string VER = "1.0.0";
+        public const string VER = "1.0.3";
         public readonly Harmony harmony = new Harmony(GUID);
 
         public ConfigEntry<int> maxEmoteTime;
@@ -41,7 +34,6 @@ namespace MoreEmotesPatch
 
         public static MoreEmotesPatchPlugin Instance;
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remove unused private members", Justification = "Used by BepInEx on Awake")]
         void Awake()
         {
             if (Instance == null)

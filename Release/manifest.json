@@ -1,6 +1,6 @@
 {
     "name": "More_Emotes_Patch",
-    "version_number": "1.0.2",
+    "version_number": "1.0.3",
     "description": "Patches More Emotes to allow movement and timeouts.",
     "website_url": "",
     "dependencies": [
