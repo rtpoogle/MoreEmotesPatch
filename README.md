@@ -2,7 +2,7 @@
 
 ## Build Requirements
 
-- Add the following file to `Libraries` in order to successfully build.
+- Add the following files to `Libraries` in order to successfully build.
 
 ```markdown
 0Harmony.dll
