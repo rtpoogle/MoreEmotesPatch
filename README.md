@@ -9,7 +9,6 @@
 Assembly-CSharp.dll
 BepInEx.dll
 LethalConfig.dll
-MoreEmotes1.3.3.dll
 Unity.InputSystem.dll
 Unity.Netcode.Runtime.dll
 UnityEngine.AnimationModule.dll

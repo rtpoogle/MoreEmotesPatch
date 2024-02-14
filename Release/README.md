@@ -1,6 +1,6 @@
 # More Emotes Patch
 
-Allows movement while emoting with More Emotes.
+Allows movement while emoting with More Emotes (+ BetterEmotes).
 
 ## Features
 

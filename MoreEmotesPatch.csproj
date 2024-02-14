@@ -27,16 +27,17 @@
   </ItemGroup>
   <ItemGroup>
     <Publicize Include="Assembly-CSharp" IncludeCompilerGeneratedMembers="false" />
-    <Publicize Include="MoreEmotes1.3.3" IncludeCompilerGeneratedMembers="false" />
+    <Publicize Include="0Harmony" IncludeCompilerGeneratedMembers="false" />
     <Publicize Include="LethalConfig" IncludeCompilerGeneratedMembers="false" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>.\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
@@ -53,10 +54,6 @@
     </Reference>
     <Reference Include="LethalConfig">
       <HintPath>Libraries\LethalConfig.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MoreEmotes1.3.3">
-      <HintPath>Libraries\MoreEmotes1.3.3.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -93,6 +90,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Log.cs" />
     <Compile Include="MoreEmotesPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
